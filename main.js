@@ -47,9 +47,8 @@ let addMemberBtn = document.querySelector(".add__btn");
 //EVENTO CHE ESEGUE CODICE AL CLICK
 addMemberBtn.addEventListener('click', (e) => {
   e.preventDefault();
-  displayImage();
   addNewObject(inputNameInserted, inputRoleInserted, inputImageInserted);
-  
+  displayImage();
 })
 
 
